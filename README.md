@@ -8,6 +8,7 @@ It highlights my front-end development skills, including design, user interface,
 ## Getting Started
 
 To get started, please follow this link to the site. 
+[Site](https://chrome4.github.io/Mock-Shoe-Website/)
 
 ## Help
 
