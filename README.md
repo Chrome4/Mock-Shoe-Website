@@ -9,6 +9,10 @@ https://github.com/Chrome4/Mock-Shoe-Website/assets/131701218/eecb71b9-ef82-4bd5
 Welcome to Steppin' Style! This project showcases a modern, responsive website designed for an online shoe store, desktop and mobile. 
 It highlights my front-end development skills, including design, user interface, and user experience optimization.
 
+## Technologies Used
+
+HTML5, CSS3 and JavaScript. Also, I used multiple free programs online for my "products" manipulation.
+
 ## Getting Started
 
 To get started, please follow this [Link](https://chrome4.github.io/Mock-Shoe-Website/) to the site. 
