@@ -11,7 +11,7 @@ It highlights my front-end development skills, including design, user interface,
 
 ## Technologies Used
 
-HTML5, CSS3 and JavaScript. Also, I used multiple free programs online for my "products" manipulation.
+HTML5, CSS3, Bootstrap and JavaScript. Also, I used multiple free programs online for my "products" manipulation.
 
 ## Getting Started
 
