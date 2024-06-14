@@ -1,5 +1,9 @@
 # Steppin' Style
 
+
+https://github.com/Chrome4/Mock-Shoe-Website/assets/131701218/eecb71b9-ef82-4bd5-a643-6df8419583c0
+
+
 ## Description
 
 Welcome to Steppin' Style! This project showcases a modern, responsive website designed for an online shoe store. 
