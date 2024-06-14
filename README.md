@@ -1,8 +1,8 @@
-# Mock-Shoe-Website
+# Steppin' Style
 
 ## Description
 
-Welcome to MockShoe Website! This project showcases a modern, responsive website designed for an online shoe store. 
+Welcome to Steppin' Style! This project showcases a modern, responsive website designed for an online shoe store. 
 It highlights my front-end development skills, including design, user interface, and user experience optimization.
 
 ## Getting Started
