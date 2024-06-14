@@ -11,7 +11,8 @@ To get started, please follow this [Link](https://chrome4.github.io/Mock-Shoe-We
 
 ## Help
 
--
+Reach out via email with any questions. 
+krmproductions19@gmail.com
 
 ## Authors
 
@@ -22,6 +23,3 @@ To get started, please follow this [Link](https://chrome4.github.io/Mock-Shoe-We
 * 0.1
     * Initial Release
 
-## License
-
-This project is licensed under the - License - see the LICENSE.md file for details
