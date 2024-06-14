@@ -135,9 +135,11 @@ nav ul li a {
   background-image: url('/Mock-Shoe-Website/assets/images/background3.jpg');
   background-size: cover;
   background-position: center;
-  height: 50vh;
+  height: 75vh;
   position: relative;
   color: #fff;
+  border-top: 5px solid #333;
+  border-bottom: 5px solid #333;
 }
 
 .bg-overlay {
@@ -195,6 +197,7 @@ nav ul li a {
 
 .sponsors-section h2 {
   font-weight: bold;
+  padding-bottom: 20px;
 }
 
 .social-media-section {

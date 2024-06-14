@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steppin' Styles - Products</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/Mock-Shoe-Website/assets/css/products.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="/Mock-Shoe-Website/index.html"
+            >Steppin' Styles</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/Mock-Shoe-Website/index.html"
+                  >On Sale</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Mock-Shoe-Website/mens.html">Mens</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Mock-Shoe-Website/womens.html"
+                  >Womens</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Mock-Shoe-Website/about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Mock-Shoe-Website/contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Our Products</h2>
+        <div class="text-center mb-4">
+          <button class="btn btn-outline-primary filter-btn" data-filter="all">
+            All
+          </button>
+          <button
+            class="btn btn-outline-primary filter-btn"
+            data-filter="running"
+          >
+            Running
+          </button>
+          <button
+            class="btn btn-outline-primary filter-btn"
+            data-filter="casual"
+          >
+            Casual
+          </button>
+          <button
+            class="btn btn-outline-primary filter-btn"
+            data-filter="sports"
+          >
+            Sports
+          </button>
+          <button
+            class="btn btn-outline-primary filter-btn"
+            data-filter="formal"
+          >
+            Formal
+          </button>
+          <button
+            class="btn btn-outline-primary filter-btn"
+            data-filter="sneakers"
+          >
+            Sneakers
+          </button>
+          <button
+            class="btn btn-outline-primary filter-btn"
+            data-filter="boots"
+          >
+            Boots
+          </button>
+        </div>
+        <div class="row" id="product-list">
+          <div class="col-md-4 mb-4 product-card" data-category="running">
+            <div class="card h-100">
+              <img
+                src="/Mock-Shoe-Website/assets/images/runningshoes.jpg"
+                class="card-img-top"
+                alt="Running Shoe"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Running Shoe</h5>
+                <p class="card-text">$50.00</p>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 product-card" data-category="casual">
+            <div class="card h-100">
+              <img
+                src="/Mock-Shoe-Website/assets/images/productcasual.jpg"
+                class="card-img-top"
+                alt="Casual Shoe"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Casual Shoe</h5>
+                <p class="card-text">$40.00</p>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <!-- Add more product cards as needed -->
+          <!-- Example products for each category -->
+          <div class="col-md-4 mb-4 product-card" data-category="sports">
+            <div class="card h-100">
+              <img
+                src="/Mock-Shoe-Website/assets/images/productsport2.jpg"
+                class="card-img-top"
+                alt="Sports Shoe"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Sports Shoe</h5>
+                <p class="card-text">$60.00</p>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 product-card" data-category="formal">
+            <div class="card h-100">
+              <img
+                src="/Mock-Shoe-Website/assets/images/productformal.jpg"
+                class="card-img-top"
+                alt="Formal Shoe"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Formal Shoe</h5>
+                <p class="card-text">$70.00</p>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 product-card" data-category="sneakers">
+            <div class="card h-100">
+              <img
+                src="/Mock-Shoe-Website/assets/images/productsneakers.png"
+                class="card-img-top"
+                alt="Sneakers"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Sneakers</h5>
+                <p class="card-text">$45.00</p>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4 product-card" data-category="boots">
+            <div class="card h-100">
+              <img
+                src="/Mock-Shoe-Website/assets/images/productboots.png"
+                class="card-img-top"
+                alt="Boots"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Boots</h5>
+                <p class="card-text">$80.00</p>
+                <button class="btn btn-primary">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="/Mock-Shoe-Website/assets/js/products.js"></script>
+  </body>
+</html>
